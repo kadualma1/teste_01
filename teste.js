@@ -3,4 +3,6 @@ function aplicarDesconto (valor,desconto) {
 }
 
 console.log('APP FUNCIONANDO');
-console.log(aplicarDescontotest())
+console.log('aplicarDescontotest()')
+
+module.exports = {aplicarDesconto}
